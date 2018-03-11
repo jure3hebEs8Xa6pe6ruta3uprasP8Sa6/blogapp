@@ -1,0 +1,16 @@
+HEADERS += blogapp_createView.moc
+SOURCES += blogapp_createView.cpp
+HEADERS += blogapp_indexView.moc
+SOURCES += blogapp_indexView.cpp
+HEADERS += blogapp_saveView.moc
+SOURCES += blogapp_saveView.cpp
+HEADERS += blogapp_showView.moc
+SOURCES += blogapp_showView.cpp
+
+# include view files in the project
+views.files += ../blogapp/create.erb
+views.files += ../blogapp/index.erb
+views.files += ../blogapp/save.erb
+views.files += ../blogapp/show.erb
+views.path = .dummy
+INSTALLS += views

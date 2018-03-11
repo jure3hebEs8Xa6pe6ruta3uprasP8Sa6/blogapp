@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<%#include "blogapp.h" %>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title><%= controller()->name() + ": " + controller()->activeAction() %></title>
+</head>
+<body>
+
+<h1>Listing Blogapp</h1>
+
+<%== linkTo("Create a new Blogapp", urla("create")) %><br />
+<br />
+<table border="1" cellpadding="5" style="border: 1px #d0d0d0 solid; border-collapse: collapse;">
+  <tr>
+    <th>ID</th>
+    <th>Title</th>
+    <th>Body</th>
+  </tr>
+<% tfetch(QList<Blogapp>, blogappList); %>
+<% for (const auto &i : blogappList) { %>
+  <tr>
+    <td><%= i.id() %></td>
+    <td><%= i.title() %></td>
+    <td><%= i.body() %></td>
+    <td>
+      <%== linkTo("Show", urla("show", i.id())) %>
+      <%== linkTo("Edit", urla("save", i.id())) %>
+      <%== linkTo("Remove", urla("remove", i.id()), Tf::Post, "confirm('Are you sure?')") %>
+    </td>
+  </tr>
+<% } %>
+</table>
+
+</body>
+</html>

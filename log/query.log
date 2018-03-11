@@ -1,0 +1,118 @@
+2018-03-10 18:23:29  [29915] [BEGIN] [databaseId:0]
+2018-03-10 18:23:29  [29915] SELECT "id","title","body","created_at","updated_at","lock_revision" FROM "blogapp" t0
+2018-03-10 18:23:29  [29915] [COMMIT] [databaseId:0]
+2018-03-10 18:23:41  [29938] [BEGIN] [databaseId:0]
+2018-03-10 18:23:41  [29938] INSERT INTO blogapp ("title", "body", "created_at", "updated_at", "lock_revision") VALUES ('blog1', 'blog1', TIMESTAMP WITH TIME ZONE '2018-03-10T23:23:41.419Z', TIMESTAMP WITH TIME ZONE '2018-03-10T23:23:41.419Z', 1)
+2018-03-10 18:23:41  [29938] [COMMIT] [databaseId:0]
+2018-03-10 18:23:41  [29938] [BEGIN] [databaseId:0]
+2018-03-10 18:23:41  [29938] SELECT "id","title","body","created_at","updated_at","lock_revision" FROM "blogapp" t0 WHERE t0."id"=1 LIMIT 1
+2018-03-10 18:23:41  [29938] [COMMIT] [databaseId:0]
+2018-03-10 18:23:43  [29938] [BEGIN] [databaseId:0]
+2018-03-10 18:23:43  [29938] SELECT "id","title","body","created_at","updated_at","lock_revision" FROM "blogapp" t0
+2018-03-10 18:23:43  [29938] [COMMIT] [databaseId:0]
+2018-03-10 19:58:06  [31713] [BEGIN] [databaseId:0]
+2018-03-10 19:58:06  [31713] SELECT "id","title","body","created_at","updated_at","lock_revision" FROM "blogapp" t0
+2018-03-10 19:58:06  [31713] [COMMIT] [databaseId:0]
+2018-03-10 19:58:08  [31713] [BEGIN] [databaseId:0]
+2018-03-10 19:58:08  [31713] SELECT "id","title","body","created_at","updated_at","lock_revision" FROM "blogapp" t0
+2018-03-10 19:58:08  [31713] [COMMIT] [databaseId:0]
+2018-03-10 19:58:09  [31713] [BEGIN] [databaseId:0]
+2018-03-10 19:58:09  [31713] SELECT "id","title","body","created_at","updated_at","lock_revision" FROM "blogapp" t0
+2018-03-10 19:58:09  [31713] [COMMIT] [databaseId:0]
+2018-03-10 23:32:09  [35502] [BEGIN] [databaseId:0]
+2018-03-10 23:32:09  [35502] SELECT "id","title","body","created_at","updated_at","lock_revision" FROM "blogapp" t0
+2018-03-10 23:32:09  [35502] [COMMIT] [databaseId:0]
+2018-03-10 23:32:22  [35516] [BEGIN] [databaseId:0]
+2018-03-10 23:32:22  [35516] SELECT "id","title","body","created_at","updated_at","lock_revision" FROM "blogapp" t0 WHERE t0."id"=1 LIMIT 1
+2018-03-10 23:32:22  [35516] [COMMIT] [databaseId:0]
+2018-03-10 23:32:26  [35516] [BEGIN] [databaseId:0]
+2018-03-10 23:32:26  [35516] SELECT "id","title","body","created_at","updated_at","lock_revision" FROM "blogapp" t0 WHERE t0."id"=1 AND t0."lock_revision"=1 LIMIT 1
+2018-03-10 23:32:26  [35516] UPDATE blogapp SET title='blog_1',updated_at=TIMESTAMP WITH TIME ZONE '2018-03-11T04:32:26.546Z',lock_revision=2 WHERE lock_revision=1 AND id=1
+2018-03-10 23:32:26  [35516] [COMMIT] [databaseId:0]
+2018-03-10 23:32:26  [35516] [BEGIN] [databaseId:0]
+2018-03-10 23:32:26  [35516] SELECT "id","title","body","created_at","updated_at","lock_revision" FROM "blogapp" t0 WHERE t0."id"=1 LIMIT 1
+2018-03-10 23:32:26  [35516] [COMMIT] [databaseId:0]
+2018-03-10 23:32:28  [35516] [BEGIN] [databaseId:0]
+2018-03-10 23:32:28  [35516] SELECT "id","title","body","created_at","updated_at","lock_revision" FROM "blogapp" t0
+2018-03-10 23:32:28  [35516] [COMMIT] [databaseId:0]
+2018-03-11 00:27:40  [37124] [BEGIN] [databaseId:0]
+2018-03-11 00:27:40  [37124] SELECT "id","title","body","created_at","updated_at","lock_revision" FROM "blogapp" t0
+2018-03-11 00:27:40  [37124] [COMMIT] [databaseId:0]
+2018-03-11 00:32:26  [37596] [BEGIN] [databaseId:0]
+2018-03-11 00:32:26  [37596] SELECT "id","title","body","created_at","updated_at","lock_revision" FROM "blogapp" t0
+2018-03-11 00:32:26  [37596] [COMMIT] [databaseId:0]
+2018-03-11 00:36:38  [37634] [BEGIN] [databaseId:0]
+2018-03-11 00:36:38  [37634] SELECT "id","title","body","created_at","updated_at","lock_revision" FROM "blogapp" t0 WHERE t0."id"=1 LIMIT 1
+2018-03-11 00:36:38  [37634] [COMMIT] [databaseId:0]
+2018-03-11 00:36:41  [37634] [BEGIN] [databaseId:0]
+2018-03-11 00:36:41  [37634] SELECT "id","title","body","created_at","updated_at","lock_revision" FROM "blogapp" t0
+2018-03-11 00:36:41  [37634] [COMMIT] [databaseId:0]
+2018-03-11 01:16:20  [42744] [BEGIN] [databaseId:0]
+2018-03-11 01:16:20  [42744] SELECT "id","title","body","created_at","updated_at","lock_revision" FROM "blogapp" t0
+2018-03-11 01:16:20  [42744] [COMMIT] [databaseId:0]
+2018-03-11 01:16:31  [42744] [BEGIN] [databaseId:0]
+2018-03-11 01:16:31  [42744] INSERT INTO blogapp ("title", "body", "created_at", "updated_at", "lock_revision") VALUES ('blog_2', 'blog2', TIMESTAMP WITH TIME ZONE '2018-03-11T06:16:31.287Z', TIMESTAMP WITH TIME ZONE '2018-03-11T06:16:31.287Z', 1)
+2018-03-11 01:16:31  [42744] [COMMIT] [databaseId:0]
+2018-03-11 01:16:31  [42744] [BEGIN] [databaseId:0]
+2018-03-11 01:16:31  [42744] SELECT "id","title","body","created_at","updated_at","lock_revision" FROM "blogapp" t0 WHERE t0."id"=2 LIMIT 1
+2018-03-11 01:16:31  [42744] [COMMIT] [databaseId:0]
+2018-03-11 01:16:33  [42744] [BEGIN] [databaseId:0]
+2018-03-11 01:16:33  [42744] SELECT "id","title","body","created_at","updated_at","lock_revision" FROM "blogapp" t0
+2018-03-11 01:16:33  [42744] [COMMIT] [databaseId:0]
+2018-03-11 01:19:54  [43018] [BEGIN] [databaseId:0]
+2018-03-11 01:19:54  [43018] SELECT "id","title","body","created_at","updated_at","lock_revision" FROM "blogapp" t0
+2018-03-11 01:19:54  [43018] [COMMIT] [databaseId:0]
+2018-03-11 01:19:56  [43018] [BEGIN] [databaseId:0]
+2018-03-11 01:19:56  [43018] SELECT "id","title","body","created_at","updated_at","lock_revision" FROM "blogapp" t0
+2018-03-11 01:19:56  [43018] [COMMIT] [databaseId:0]
+2018-03-11 01:20:11  [43069] [BEGIN] [databaseId:0]
+2018-03-11 01:20:11  [43069] SELECT "id","title","body","created_at","updated_at","lock_revision" FROM "blogapp" t0
+2018-03-11 01:20:11  [43069] [COMMIT] [databaseId:0]
+2018-03-11 01:20:12  [43069] [BEGIN] [databaseId:0]
+2018-03-11 01:20:12  [43069] SELECT "id","title","body","created_at","updated_at","lock_revision" FROM "blogapp" t0
+2018-03-11 01:20:12  [43069] [COMMIT] [databaseId:0]
+2018-03-11 01:20:14  [43069] [BEGIN] [databaseId:0]
+2018-03-11 01:20:14  [43069] SELECT "id","title","body","created_at","updated_at","lock_revision" FROM "blogapp" t0 WHERE t0."id"=1 LIMIT 1
+2018-03-11 01:20:14  [43069] [COMMIT] [databaseId:0]
+2018-03-11 01:20:17  [43069] [BEGIN] [databaseId:0]
+2018-03-11 01:20:17  [43069] SELECT "id","title","body","created_at","updated_at","lock_revision" FROM "blogapp" t0
+2018-03-11 01:20:17  [43069] [COMMIT] [databaseId:0]
+2018-03-11 01:20:20  [43069] [BEGIN] [databaseId:0]
+2018-03-11 01:20:20  [43069] SELECT "id","title","body","created_at","updated_at","lock_revision" FROM "blogapp" t0 WHERE t0."id"=2 LIMIT 1
+2018-03-11 01:20:20  [43069] [COMMIT] [databaseId:0]
+2018-03-11 01:20:22  [43069] [BEGIN] [databaseId:0]
+2018-03-11 01:20:22  [43069] SELECT "id","title","body","created_at","updated_at","lock_revision" FROM "blogapp" t0
+2018-03-11 01:20:22  [43069] [COMMIT] [databaseId:0]
+2018-03-11 01:20:26  [43069] [BEGIN] [databaseId:0]
+2018-03-11 01:20:26  [43069] SELECT "id","title","body","created_at","updated_at","lock_revision" FROM "blogapp" t0
+2018-03-11 01:20:26  [43069] [COMMIT] [databaseId:0]
+2018-03-11 01:21:25  [43246] [BEGIN] [databaseId:0]
+2018-03-11 01:21:25  [43246] SELECT "id","title","body","created_at","updated_at","lock_revision" FROM "blogapp" t0
+2018-03-11 01:21:25  [43246] [COMMIT] [databaseId:0]
+2018-03-11 01:23:23  [44479] [BEGIN] [databaseId:0]
+2018-03-11 01:23:23  [44479] SELECT "id","title","body","created_at","updated_at","lock_revision" FROM "blogapp" t0
+2018-03-11 01:23:23  [44479] [COMMIT] [databaseId:0]
+2018-03-11 01:24:32  [45689] [BEGIN] [databaseId:0]
+2018-03-11 01:24:32  [45689] SELECT "id","title","body","created_at","updated_at","lock_revision" FROM "blogapp" t0
+2018-03-11 01:24:32  [45689] [COMMIT] [databaseId:0]
+2018-03-11 01:24:33  [45689] [BEGIN] [databaseId:0]
+2018-03-11 01:24:33  [45689] SELECT "id","title","body","created_at","updated_at","lock_revision" FROM "blogapp" t0
+2018-03-11 01:24:33  [45689] [COMMIT] [databaseId:0]
+2018-03-11 01:29:37  [45955] [BEGIN] [databaseId:0]
+2018-03-11 01:29:37  [45955] SELECT "id","title","body","created_at","updated_at","lock_revision" FROM "blogapp" t0
+2018-03-11 01:29:37  [45955] [COMMIT] [databaseId:0]
+2018-03-11 01:29:39  [45955] [BEGIN] [databaseId:0]
+2018-03-11 01:29:39  [45955] SELECT "id","title","body","created_at","updated_at","lock_revision" FROM "blogapp" t0
+2018-03-11 01:29:39  [45955] [COMMIT] [databaseId:0]
+2018-03-11 01:29:40  [45955] [BEGIN] [databaseId:0]
+2018-03-11 01:29:40  [45955] SELECT "id","title","body","created_at","updated_at","lock_revision" FROM "blogapp" t0
+2018-03-11 01:29:40  [45955] [COMMIT] [databaseId:0]
+2018-03-11 01:29:42  [45955] [BEGIN] [databaseId:0]
+2018-03-11 01:29:42  [45955] SELECT "id","title","body","created_at","updated_at","lock_revision" FROM "blogapp" t0 WHERE t0."id"=1 LIMIT 1
+2018-03-11 01:29:42  [45955] [COMMIT] [databaseId:0]
+2018-03-11 01:34:48  [46631] [BEGIN] [databaseId:0]
+2018-03-11 01:34:49  [46631] SELECT "id","title","body","created_at","updated_at","lock_revision" FROM "blogapp" t0
+2018-03-11 01:34:49  [46631] [COMMIT] [databaseId:0]
+2018-03-11 01:35:33  [46863] [BEGIN] [databaseId:0]
+2018-03-11 01:35:33  [46863] SELECT "id","title","body","created_at","updated_at","lock_revision" FROM "blogapp" t0
+2018-03-11 01:35:33  [46863] [COMMIT] [databaseId:0]
