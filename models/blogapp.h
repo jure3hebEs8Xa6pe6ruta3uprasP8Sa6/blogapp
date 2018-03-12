@@ -36,6 +36,7 @@ public:
     bool save()   override { return TAbstractModel::save(); }
     bool remove() override { return TAbstractModel::remove(); }
 
+    static bool load(const QString &filename);
     static Blogapp create(const QString &title, const QString &body);
     static Blogapp create(const QVariantMap &values);
     static Blogapp get(int id);

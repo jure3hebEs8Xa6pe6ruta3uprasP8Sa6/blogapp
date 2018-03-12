@@ -1,98 +1,170 @@
-2018-03-10 18:22:52 INFO  [29887] TreeFrog Framework version 1.20.0
-2018-03-10 18:22:52 INFO  [29887] Qt 5.10.0 / Linux 4.13.0-36-generic
-2018-03-10 18:22:52 INFO  [29887] TreeFrog application servers started up.
-2018-03-10 18:27:49 INFO  [29887] TreeFrog application servers shutting down
-2018-03-10 18:27:49 INFO  [29887] TreeFrog application servers shutdown completed
-2018-03-10 19:58:00 INFO  [31692] TreeFrog Framework version 1.20.0
-2018-03-10 19:58:00 INFO  [31692] Qt 5.10.0 / Linux 4.13.0-36-generic
-2018-03-10 19:58:00 INFO  [31692] TreeFrog application servers started up.
-2018-03-10 19:59:34 INFO  [31692] TreeFrog application servers shutting down
-2018-03-10 19:59:35 INFO  [31692] TreeFrog application servers shutdown completed
-2018-03-10 20:03:26 INFO  [31916] TreeFrog Framework version 1.20.0
-2018-03-10 20:03:26 INFO  [31916] Qt 5.10.0 / Linux 4.13.0-36-generic
-2018-03-10 20:03:26 INFO  [31916] TreeFrog application servers started up.
-2018-03-10 20:03:26 WARN  [31920] Cannot load library libcontroller.so: (libcontroller.so: cannot open shared object file: No such file or directory)
-2018-03-10 20:03:26 WARN  [31920] Failed to load application libraries.
-2018-03-10 20:03:26 WARN  [31931] No such method: staticInitialize() of ApplicationController
-2018-03-10 20:03:52 INFO  [31916] TreeFrog application servers shutting down
-2018-03-10 20:03:53 INFO  [31916] TreeFrog application servers shutdown completed
-2018-03-10 20:20:19 INFO  [32227] TreeFrog Framework version 1.20.0
-2018-03-10 20:20:19 INFO  [32227] Qt 5.10.0 / Linux 4.13.0-36-generic
-2018-03-10 20:20:19 INFO  [32227] TreeFrog application servers started up.
-2018-03-10 20:20:19 WARN  [32231] Cannot load library libcontroller.so: (libcontroller.so: cannot open shared object file: No such file or directory)
-2018-03-10 20:20:19 WARN  [32231] Failed to load application libraries.
-2018-03-10 20:20:19 WARN  [32239] No such method: staticInitialize() of ApplicationController
-2018-03-10 20:22:17 INFO  [32227] TreeFrog application servers shutting down
-2018-03-10 20:22:24 INFO  [32227] TreeFrog application servers shutdown completed
-2018-03-10 23:32:03 INFO  [35484] TreeFrog Framework version 1.20.0
-2018-03-10 23:32:03 INFO  [35484] Qt 5.10.0 / Linux 4.13.0-36-generic
-2018-03-10 23:32:03 INFO  [35484] TreeFrog application servers started up.
-2018-03-10 23:51:38 INFO  [35484] TreeFrog application servers shutting down
-2018-03-10 23:51:38 INFO  [35484] TreeFrog application servers shutdown completed
-2018-03-11 00:26:52 INFO  [36917] TreeFrog Framework version 1.20.0
-2018-03-11 00:26:52 INFO  [36917] Qt 5.10.0 / Linux 4.13.0-36-generic
-2018-03-11 00:26:52 INFO  [36917] TreeFrog application servers started up.
-2018-03-11 00:26:52 WARN  [36921] Cannot load library libcontroller.so: (libcontroller.so: cannot open shared object file: No such file or directory)
-2018-03-11 00:26:52 WARN  [36921] Failed to load application libraries.
-2018-03-11 00:26:52 WARN  [36941] No such method: staticInitialize() of ApplicationController
-2018-03-11 00:27:18 INFO  [36917] TreeFrog application servers shutting down
-2018-03-11 00:27:18 INFO  [36917] TreeFrog application servers shutdown completed
-2018-03-11 00:27:31 INFO  [37042] TreeFrog Framework version 1.20.0
-2018-03-11 00:27:31 INFO  [37042] Qt 5.10.0 / Linux 4.13.0-36-generic
-2018-03-11 00:27:31 INFO  [37042] TreeFrog application servers started up.
-2018-03-11 00:28:34 INFO  [37042] TreeFrog application servers shutting down
-2018-03-11 00:28:34 INFO  [37042] TreeFrog application servers shutdown completed
-2018-03-11 00:31:21 INFO  [37455] TreeFrog Framework version 1.20.0
-2018-03-11 00:31:21 INFO  [37455] Qt 5.10.0 / Linux 4.13.0-36-generic
-2018-03-11 00:31:21 INFO  [37455] TreeFrog application servers started up.
-2018-03-11 00:31:21 WARN  [37459] Cannot load library libcontroller.so: (libcontroller.so: cannot open shared object file: No such file or directory)
-2018-03-11 00:31:21 WARN  [37459] Failed to load application libraries.
-2018-03-11 00:31:22 WARN  [37471] No such method: staticInitialize() of ApplicationController
-2018-03-11 00:31:39 INFO  [37455] TreeFrog application servers shutting down
-2018-03-11 00:31:40 INFO  [37455] TreeFrog application servers shutdown completed
-2018-03-11 00:32:21 INFO  [37579] TreeFrog Framework version 1.20.0
-2018-03-11 00:32:21 INFO  [37579] Qt 5.10.0 / Linux 4.13.0-36-generic
-2018-03-11 00:32:21 INFO  [37579] TreeFrog application servers started up.
-2018-03-11 00:39:17 INFO  [37579] TreeFrog application servers shutting down
-2018-03-11 00:39:17 INFO  [37579] TreeFrog application servers shutdown completed
-2018-03-11 01:16:14 INFO  [42724] TreeFrog Framework version 1.20.0
-2018-03-11 01:16:14 INFO  [42724] Qt 5.10.0 / Linux 4.13.0-36-generic
-2018-03-11 01:16:14 INFO  [42724] TreeFrog application servers started up.
-2018-03-11 01:20:01 INFO  [42724] TreeFrog application servers shutting down
-2018-03-11 01:20:06 INFO  [42724] TreeFrog application servers shutdown completed
-2018-03-11 01:20:07 INFO  [43053] TreeFrog Framework version 1.20.0
-2018-03-11 01:20:07 INFO  [43053] Qt 5.10.0 / Linux 4.13.0-36-generic
-2018-03-11 01:20:07 INFO  [43053] TreeFrog application servers started up.
-2018-03-11 01:21:06 INFO  [43053] TreeFrog application servers shutting down
-2018-03-11 01:21:06 INFO  [43053] TreeFrog application servers shutdown completed
-2018-03-11 01:21:22 INFO  [43230] TreeFrog Framework version 1.20.0
-2018-03-11 01:21:22 INFO  [43230] Qt 5.10.0 / Linux 4.13.0-36-generic
-2018-03-11 01:21:22 INFO  [43230] TreeFrog application servers started up.
-2018-03-11 01:23:18 INFO  [43230] TreeFrog application servers shutting down
-2018-03-11 01:23:18 INFO  [43230] TreeFrog application servers shutdown completed
-2018-03-11 01:23:20 INFO  [44462] TreeFrog Framework version 1.20.0
-2018-03-11 01:23:20 INFO  [44462] Qt 5.10.0 / Linux 4.13.0-36-generic
-2018-03-11 01:23:20 INFO  [44462] TreeFrog application servers started up.
-2018-03-11 01:23:26 INFO  [44462] TreeFrog application servers shutting down
-2018-03-11 01:23:33 INFO  [44462] TreeFrog application servers shutdown completed
-2018-03-11 01:24:28 INFO  [45674] TreeFrog Framework version 1.20.0
-2018-03-11 01:24:28 INFO  [45674] Qt 5.10.0 / Linux 4.13.0-36-generic
-2018-03-11 01:24:28 INFO  [45674] TreeFrog application servers started up.
-2018-03-11 01:26:48 INFO  [45674] TreeFrog application servers shutting down
-2018-03-11 01:26:51 WARN  [45722] Invalid descriptor (disconnected) : -1
-2018-03-11 01:26:51 INFO  [45674] TreeFrog application servers shutdown completed
-2018-03-11 01:29:34 INFO  [45940] TreeFrog Framework version 1.20.0
-2018-03-11 01:29:34 INFO  [45940] Qt 5.10.0 / Linux 4.13.0-36-generic
-2018-03-11 01:29:34 INFO  [45940] TreeFrog application servers started up.
-2018-03-11 01:33:36 INFO  [45940] TreeFrog application servers shutting down
-2018-03-11 01:33:36 INFO  [45940] TreeFrog application servers shutdown completed
-2018-03-11 01:34:44 INFO  [46616] TreeFrog Framework version 1.20.0
-2018-03-11 01:34:44 INFO  [46616] Qt 5.10.0 / Linux 4.13.0-36-generic
-2018-03-11 01:34:44 INFO  [46616] TreeFrog application servers started up.
-2018-03-11 01:34:53 INFO  [46616] TreeFrog application servers shutting down
-2018-03-11 01:34:59 INFO  [46616] TreeFrog application servers shutdown completed
-2018-03-11 01:35:28 INFO  [46849] TreeFrog Framework version 1.20.0
-2018-03-11 01:35:28 INFO  [46849] Qt 5.10.0 / Linux 4.13.0-36-generic
-2018-03-11 01:35:28 INFO  [46849] TreeFrog application servers started up.
-2018-03-11 01:37:07 INFO  [46849] TreeFrog application servers shutting down
-2018-03-11 01:37:07 INFO  [46849] TreeFrog application servers shutdown completed
+2018-03-11 19:50:04 INFO  [78357] TreeFrog Framework version 1.20.0
+2018-03-11 19:50:04 INFO  [78357] Qt 5.10.0 / Linux 4.13.0-36-generic
+2018-03-11 19:50:04 INFO  [78357] TreeFrog application servers started up.
+2018-03-11 19:50:52 INFO  [78357] TreeFrog application servers shutting down
+2018-03-11 19:50:53 INFO  [78357] TreeFrog application servers shutdown completed
+2018-03-11 19:50:54 INFO  [78630] TreeFrog Framework version 1.20.0
+2018-03-11 19:50:54 INFO  [78630] Qt 5.10.0 / Linux 4.13.0-36-generic
+2018-03-11 19:50:54 INFO  [78630] TreeFrog application servers started up.
+2018-03-11 19:51:01 ERROR [78650] Caught Exception
+2018-03-11 19:51:01 WARN  [78650] Error occurred : error:-1  socket:0
+2018-03-11 19:54:23 INFO  [78630] TreeFrog application servers shutting down
+2018-03-11 19:54:23 INFO  [78630] TreeFrog application servers shutdown completed
+2018-03-11 19:54:25 INFO  [79366] TreeFrog Framework version 1.20.0
+2018-03-11 19:54:25 INFO  [79366] Qt 5.10.0 / Linux 4.13.0-36-generic
+2018-03-11 19:54:25 INFO  [79366] TreeFrog application servers started up.
+2018-03-11 19:57:29 INFO  [79366] TreeFrog application servers shutting down
+2018-03-11 19:57:29 INFO  [79366] TreeFrog application servers shutdown completed
+2018-03-11 19:57:31 INFO  [80208] TreeFrog Framework version 1.20.0
+2018-03-11 19:57:31 INFO  [80208] Qt 5.10.0 / Linux 4.13.0-36-generic
+2018-03-11 19:57:31 INFO  [80208] TreeFrog application servers started up.
+2018-03-11 20:00:40 INFO  [80208] TreeFrog application servers shutting down
+2018-03-11 20:00:41 INFO  [80208] TreeFrog application servers shutdown completed
+2018-03-11 20:00:41 INFO  [80963] TreeFrog Framework version 1.20.0
+2018-03-11 20:00:41 INFO  [80963] Qt 5.10.0 / Linux 4.13.0-36-generic
+2018-03-11 20:00:41 INFO  [80963] TreeFrog application servers started up.
+2018-03-11 20:03:54 INFO  [80963] TreeFrog application servers shutting down
+2018-03-11 20:03:55 INFO  [80963] TreeFrog application servers shutdown completed
+2018-03-11 20:03:56 INFO  [82321] TreeFrog Framework version 1.20.0
+2018-03-11 20:03:56 INFO  [82321] Qt 5.10.0 / Linux 4.13.0-36-generic
+2018-03-11 20:03:56 INFO  [82321] TreeFrog application servers started up.
+2018-03-11 21:46:52 INFO  [82321] TreeFrog application servers shutting down
+2018-03-11 21:46:52 INFO  [82321] TreeFrog application servers shutdown completed
+2018-03-11 21:46:53 INFO  [85614] TreeFrog Framework version 1.20.0
+2018-03-11 21:46:53 INFO  [85614] Qt 5.10.0 / Linux 4.13.0-36-generic
+2018-03-11 21:46:53 INFO  [85614] TreeFrog application servers started up.
+2018-03-11 21:47:10 WARN  [85614] treefrog stderr: /usr/bin/tadpole: symbol lookup error: ./libmodel.so.1.0: undefined symbol: _ZN5QtCSV6Reader10readToListERK7QStringS3_S3_P10QTextCodec
+
+2018-03-11 21:49:45 INFO  [85614] TreeFrog application servers shutting down
+2018-03-11 21:49:46 INFO  [85614] TreeFrog application servers shutdown completed
+2018-03-11 21:50:48 INFO  [86337] TreeFrog Framework version 1.20.0
+2018-03-11 21:50:48 INFO  [86337] Qt 5.10.0 / Linux 4.13.0-36-generic
+2018-03-11 21:50:48 INFO  [86337] TreeFrog application servers started up.
+2018-03-11 21:50:59 WARN  [86337] treefrog stderr: /usr/bin/tadpole: symbol lookup error: ./libmodel.so.1.0: undefined symbol: _ZN5QtCSV6Reader10readToListERK7QStringS3_S3_P10QTextCodec
+
+2018-03-11 21:50:59 WARN  [86337] treefrog stderr: /usr/bin/tadpole: symbol lookup error: ./libmodel.so.1.0: undefined symbol: _ZN5QtCSV6Reader10readToListERK7QStringS3_S3_P10QTextCodec
+
+2018-03-11 22:01:37 INFO  [86337] TreeFrog application servers shutting down
+2018-03-11 22:01:38 INFO  [86337] TreeFrog application servers shutdown completed
+2018-03-11 22:03:22 INFO  [86631] TreeFrog Framework version 1.20.0
+2018-03-11 22:03:22 INFO  [86631] Qt 5.10.0 / Linux 4.13.0-36-generic
+2018-03-11 22:03:22 INFO  [86631] TreeFrog application servers started up.
+2018-03-11 22:03:55 WARN  [86631] treefrog stderr: /usr/bin/tadpole: symbol lookup error: ./libmodel.so.1.0: undefined symbol: _ZN5QtCSV6Reader10readToListERK7QStringS3_S3_P10QTextCodec
+
+2018-03-11 22:04:00 INFO  [86631] TreeFrog application servers shutting down
+2018-03-11 22:04:00 INFO  [86631] TreeFrog application servers shutdown completed
+2018-03-11 22:14:11 INFO  [87828] TreeFrog Framework version 1.20.0
+2018-03-11 22:14:11 INFO  [87828] Qt 5.10.0 / Linux 4.13.0-36-generic
+2018-03-11 22:14:11 INFO  [87828] TreeFrog application servers started up.
+2018-03-11 22:14:11 WARN  [87832] Cannot load library libcontroller.so: (libqtcsv.so.1: cannot open shared object file: No such file or directory)
+2018-03-11 22:14:11 WARN  [87832] Failed to load application libraries.
+2018-03-11 22:14:11 WARN  [87847] No such method: staticInitialize() of ApplicationController
+2018-03-11 22:43:51 INFO  [87828] TreeFrog application servers shutting down
+2018-03-11 22:43:52 INFO  [87828] TreeFrog application servers shutdown completed
+2018-03-11 22:43:59 INFO  [88255] TreeFrog Framework version 1.20.0
+2018-03-11 22:43:59 INFO  [88255] Qt 5.10.0 / Linux 4.13.0-36-generic
+2018-03-11 22:43:59 INFO  [88255] TreeFrog application servers started up.
+2018-03-11 22:43:59 WARN  [88258] Cannot load library libcontroller.so: (libqtcsv.so.1: cannot open shared object file: No such file or directory)
+2018-03-11 22:43:59 WARN  [88258] Failed to load application libraries.
+2018-03-11 22:43:59 WARN  [88263] No such method: staticInitialize() of ApplicationController
+2018-03-11 22:45:16 INFO  [88255] TreeFrog application servers shutting down
+2018-03-11 22:45:17 INFO  [88255] TreeFrog application servers shutdown completed
+2018-03-11 22:45:27 INFO  [88409] TreeFrog Framework version 1.20.0
+2018-03-11 22:45:27 INFO  [88409] Qt 5.10.0 / Linux 4.13.0-36-generic
+2018-03-11 22:45:27 INFO  [88409] TreeFrog application servers started up.
+2018-03-11 22:45:27 WARN  [88413] Cannot load library libcontroller.so: (libqtcsv.so.1: cannot open shared object file: No such file or directory)
+2018-03-11 22:45:27 WARN  [88413] Failed to load application libraries.
+2018-03-11 22:45:27 WARN  [88439] No such method: staticInitialize() of ApplicationController
+2018-03-11 22:45:47 WARN  [88460] Invalid descriptor (disconnected) : -1
+2018-03-11 22:47:50 INFO  [88409] TreeFrog application servers shutting down
+2018-03-11 22:47:50 INFO  [88409] TreeFrog application servers shutdown completed
+2018-03-11 22:47:51 INFO  [89374] TreeFrog Framework version 1.20.0
+2018-03-11 22:47:51 INFO  [89374] Qt 5.10.0 / Linux 4.13.0-36-generic
+2018-03-11 22:47:51 INFO  [89374] TreeFrog application servers started up.
+2018-03-11 22:47:51 WARN  [89379] Cannot load library libcontroller.so: (libqtcsv.so.1: cannot open shared object file: No such file or directory)
+2018-03-11 22:47:51 WARN  [89379] Failed to load application libraries.
+2018-03-11 22:47:51 WARN  [89386] No such method: staticInitialize() of ApplicationController
+2018-03-11 22:49:57 INFO  [89374] TreeFrog application servers shutting down
+2018-03-11 22:49:57 INFO  [89374] TreeFrog application servers shutdown completed
+2018-03-11 22:49:58 INFO  [89703] TreeFrog Framework version 1.20.0
+2018-03-11 22:49:58 INFO  [89703] Qt 5.10.0 / Linux 4.13.0-36-generic
+2018-03-11 22:49:58 INFO  [89703] TreeFrog application servers started up.
+2018-03-11 22:49:58 WARN  [89707] Cannot load library libcontroller.so: (libqtcsv.so.1: cannot open shared object file: No such file or directory)
+2018-03-11 22:49:58 WARN  [89707] Failed to load application libraries.
+2018-03-11 22:49:58 WARN  [89713] No such method: staticInitialize() of ApplicationController
+2018-03-11 22:50:59 INFO  [89703] TreeFrog application servers shutting down
+2018-03-11 22:51:06 INFO  [89703] TreeFrog application servers shutdown completed
+2018-03-11 22:51:35 INFO  [90440] TreeFrog Framework version 1.20.0
+2018-03-11 22:51:35 INFO  [90440] Qt 5.10.0 / Linux 4.13.0-36-generic
+2018-03-11 22:51:35 INFO  [90440] TreeFrog application servers started up.
+2018-03-11 22:51:55 WARN  [90440] treefrog stderr: /usr/bin/tadpole: symbol lookup error: ./libmodel.so.1.0: undefined symbol: _ZN5QtCSV6Reader10readToListERK7QStringS3_S3_P10QTextCodec
+
+2018-03-11 22:51:55 WARN  [90440] treefrog stderr: /usr/bin/tadpole: symbol lookup error: ./libmodel.so.1.0: undefined symbol: _ZN5QtCSV6Reader10readToListERK7QStringS3_S3_P10QTextCodec
+
+2018-03-11 22:52:59 INFO  [90440] TreeFrog application servers shutting down
+2018-03-11 22:52:59 INFO  [90440] TreeFrog application servers shutdown completed
+2018-03-11 22:53:00 INFO  [91154] TreeFrog Framework version 1.20.0
+2018-03-11 22:53:00 INFO  [91154] Qt 5.10.0 / Linux 4.13.0-36-generic
+2018-03-11 22:53:00 INFO  [91154] TreeFrog application servers started up.
+2018-03-11 22:54:16 INFO  [91154] TreeFrog application servers shutting down
+2018-03-11 22:54:16 INFO  [91154] TreeFrog application servers shutdown completed
+2018-03-11 22:54:17 INFO  [91856] TreeFrog Framework version 1.20.0
+2018-03-11 22:54:17 INFO  [91856] Qt 5.10.0 / Linux 4.13.0-36-generic
+2018-03-11 22:54:17 INFO  [91856] TreeFrog application servers started up.
+2018-03-11 22:54:31 WARN  [91856] treefrog stderr: /usr/bin/tadpole: symbol lookup error: ./libmodel.so.1.0: undefined symbol: _ZN5QtCSV6Reader10readToListERK7QStringS3_S3_P10QTextCodec
+
+2018-03-11 22:54:31 WARN  [91856] treefrog stderr: /usr/bin/tadpole: symbol lookup error: ./libmodel.so.1.0: undefined symbol: _ZN5QtCSV6Reader10readToListERK7QStringS3_S3_P10QTextCodec
+
+2018-03-11 22:56:47 INFO  [91856] TreeFrog application servers shutting down
+2018-03-11 22:56:47 INFO  [91856] TreeFrog application servers shutdown completed
+2018-03-11 22:56:48 INFO  [92602] TreeFrog Framework version 1.20.0
+2018-03-11 22:56:48 INFO  [92602] Qt 5.10.0 / Linux 4.13.0-36-generic
+2018-03-11 22:56:48 INFO  [92602] TreeFrog application servers started up.
+2018-03-11 22:57:02 WARN  [92602] treefrog stderr: /usr/bin/tadpole: symbol lookup error: ./libmodel.so.1.0: undefined symbol: _ZN5QtCSV6Reader10readToListERK7QStringS3_S3_P10QTextCodec
+
+2018-03-11 22:57:02 WARN  [92602] treefrog stderr: /usr/bin/tadpole: symbol lookup error: ./libmodel.so.1.0: undefined symbol: _ZN5QtCSV6Reader10readToListERK7QStringS3_S3_P10QTextCodec
+
+2018-03-11 22:59:28 INFO  [92602] TreeFrog application servers shutting down
+2018-03-11 22:59:28 INFO  [92602] TreeFrog application servers shutdown completed
+2018-03-11 22:59:51 INFO  [93357] TreeFrog Framework version 1.20.0
+2018-03-11 22:59:51 INFO  [93357] Qt 5.10.0 / Linux 4.13.0-36-generic
+2018-03-11 22:59:51 INFO  [93357] TreeFrog application servers started up.
+2018-03-11 23:00:32 INFO  [93357] TreeFrog application servers shutting down
+2018-03-11 23:00:33 INFO  [93357] TreeFrog application servers shutdown completed
+2018-03-11 23:02:24 INFO  [94832] TreeFrog Framework version 1.20.0
+2018-03-11 23:02:24 INFO  [94832] Qt 5.10.0 / Linux 4.13.0-36-generic
+2018-03-11 23:02:24 INFO  [94832] TreeFrog application servers started up.
+2018-03-11 23:03:05 INFO  [94832] TreeFrog application servers shutting down
+2018-03-11 23:03:06 INFO  [94832] TreeFrog application servers shutdown completed
+2018-03-11 23:03:06 INFO  [95564] TreeFrog Framework version 1.20.0
+2018-03-11 23:03:06 INFO  [95564] Qt 5.10.0 / Linux 4.13.0-36-generic
+2018-03-11 23:03:06 INFO  [95564] TreeFrog application servers started up.
+2018-03-11 23:03:06 WARN  [95568] Cannot load library libcontroller.so: (libqtcsv.so.1: cannot open shared object file: No such file or directory)
+2018-03-11 23:03:06 WARN  [95568] Failed to load application libraries.
+2018-03-11 23:03:06 WARN  [95574] No such method: staticInitialize() of ApplicationController
+2018-03-11 23:03:53 INFO  [95564] TreeFrog application servers shutting down
+2018-03-11 23:03:53 INFO  [95564] TreeFrog application servers shutdown completed
+2018-03-11 23:07:30 INFO  [97106] TreeFrog Framework version 1.20.0
+2018-03-11 23:07:30 INFO  [97106] Qt 5.10.0 / Linux 4.13.0-36-generic
+2018-03-11 23:07:30 WARN  [97110] Cannot load library libcontroller.so: (libqtcsv.so.1: cannot open shared object file: No such file or directory)
+2018-03-11 23:07:30 WARN  [97110] Failed to load application libraries.
+2018-03-11 23:07:30 INFO  [97106] TreeFrog application servers started up.
+2018-03-11 23:07:30 WARN  [97118] No such method: staticInitialize() of ApplicationController
+2018-03-11 23:07:42 INFO  [97106] TreeFrog application servers shutting down
+2018-03-11 23:07:45 INFO  [97106] TreeFrog application servers shutdown completed
+2018-03-11 23:12:14 INFO  [98937] TreeFrog Framework version 1.20.0
+2018-03-11 23:12:14 INFO  [98937] Qt 5.10.0 / Linux 4.13.0-36-generic
+2018-03-11 23:12:15 INFO  [98937] TreeFrog application servers started up.
+2018-03-11 23:12:15 WARN  [98941] Cannot load library libcontroller.so: (libqtcsv.so.1: cannot open shared object file: No such file or directory)
+2018-03-11 23:12:15 WARN  [98941] Failed to load application libraries.
+2018-03-11 23:12:15 WARN  [98954] No such method: staticInitialize() of ApplicationController
+2018-03-11 23:12:23 INFO  [98937] TreeFrog application servers shutting down
+2018-03-11 23:12:29 INFO  [98937] TreeFrog application servers shutdown completed
+2018-03-11 23:13:14 INFO  [100296] TreeFrog Framework version 1.20.0
+2018-03-11 23:13:14 INFO  [100296] Qt 5.10.0 / Linux 4.13.0-36-generic
+2018-03-11 23:13:14 INFO  [100296] TreeFrog application servers started up.
+2018-03-11 23:13:14 WARN  [100300] Cannot load library libcontroller.so: (libqtcsv.so.1: cannot open shared object file: No such file or directory)
+2018-03-11 23:13:14 WARN  [100300] Failed to load application libraries.
+2018-03-11 23:13:14 WARN  [100311] No such method: staticInitialize() of ApplicationController
+2018-03-11 23:13:36 INFO  [100296] TreeFrog application servers shutting down
+2018-03-11 23:13:36 INFO  [100296] TreeFrog application servers shutdown completed

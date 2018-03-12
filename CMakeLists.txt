@@ -5,9 +5,12 @@ project(${PROJECT})
 #        VERSION "1.0.0")
 set(PROJECT_VERSION "1.0.0")
 
+set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -std=c++11 -pthread")
 
 find_package(Qt5 COMPONENTS Sql Xml Qml Core Widgets REQUIRED)
+find_package(qtcsv REQUIRED)
 include_directories(/usr/include/treefrog)
+include_directories(/usr/local/include/qtcsv)
 include_directories(models)
 include_directories(models/sqlobjects)
 include_directories(helpers)
@@ -17,6 +20,7 @@ set(CMAKE_AUTOUIC ON)
 set(CMAKE_AUTORCC ON)
 set(CMAKE_INCLUDE_CURRENT_DIR ON)
 
+add_executable(hello test.cpp)
 
 #   helper
 add_library(
@@ -34,7 +38,7 @@ add_library(model SHARED
         models/blogapp.h)
 
 set_target_properties(model PROPERTIES VERSION ${PROJECT_VERSION} SOVERSION 1 SOVERSION 1.0)
-target_link_libraries(model pthread treefrog rt helper Qt5::Core Qt5::Network Qt5::Sql Qt5::Qml Qt5::Xml)
+target_link_libraries(model pthread treefrog rt helper qtcsv Qt5::Core Qt5::Network Qt5::Sql Qt5::Qml Qt5::Xml)
 
 #	controller
 add_library(controller SHARED
@@ -51,6 +55,7 @@ add_library(view SHARED
         views/_src/blogapp_createView.cpp
         views/_src/blogapp_indexView.cpp
         views/_src/blogapp_saveView.cpp
+        views/_src/blogapp_loadView.cpp
         views/_src/blogapp_showView.cpp)
 
 set_target_properties(view PROPERTIES VERSION ${PROJECT_VERSION} SOVERSION 1 SOVERSION 1.0)

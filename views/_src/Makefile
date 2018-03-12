@@ -52,10 +52,12 @@ OBJECTS_DIR   = .obj/
 
 SOURCES       = blogapp_createView.cpp \
 		blogapp_indexView.cpp \
+		blogapp_loadView.cpp \
 		blogapp_saveView.cpp \
 		blogapp_showView.cpp 
 OBJECTS       = .obj/blogapp_createView.o \
 		.obj/blogapp_indexView.o \
+		.obj/blogapp_loadView.o \
 		.obj/blogapp_saveView.o \
 		.obj/blogapp_showView.o
 DIST          = /usr/lib/x86_64-linux-gnu/qt5/mkspecs/features/spec_pre.prf \
@@ -138,9 +140,11 @@ DIST          = /usr/lib/x86_64-linux-gnu/qt5/mkspecs/features/spec_pre.prf \
 		/usr/lib/x86_64-linux-gnu/qt5/mkspecs/features/lex.prf \
 		_src.pro blogapp_createView.moc \
 		blogapp_indexView.moc \
+		blogapp_loadView.moc \
 		blogapp_saveView.moc \
 		blogapp_showView.moc blogapp_createView.cpp \
 		blogapp_indexView.cpp \
+		blogapp_loadView.cpp \
 		blogapp_saveView.cpp \
 		blogapp_showView.cpp
 QMAKE_TARGET  = view
@@ -362,8 +366,8 @@ distdir: FORCE
 	@test -d $(DISTDIR) || mkdir -p $(DISTDIR)
 	$(COPY_FILE) --parents $(DIST) $(DISTDIR)/
 	$(COPY_FILE) --parents /usr/lib/x86_64-linux-gnu/qt5/mkspecs/features/data/dummy.cpp $(DISTDIR)/
-	$(COPY_FILE) --parents blogapp_createView.moc blogapp_indexView.moc blogapp_saveView.moc blogapp_showView.moc $(DISTDIR)/
-	$(COPY_FILE) --parents blogapp_createView.cpp blogapp_indexView.cpp blogapp_saveView.cpp blogapp_showView.cpp $(DISTDIR)/
+	$(COPY_FILE) --parents blogapp_createView.moc blogapp_indexView.moc blogapp_loadView.moc blogapp_saveView.moc blogapp_showView.moc $(DISTDIR)/
+	$(COPY_FILE) --parents blogapp_createView.cpp blogapp_indexView.cpp blogapp_loadView.cpp blogapp_saveView.cpp blogapp_showView.cpp $(DISTDIR)/
 
 
 clean: compiler_clean 
@@ -403,9 +407,9 @@ compiler_moc_header_make_all:
 compiler_moc_header_clean:
 compiler_moc_objc_header_make_all:
 compiler_moc_objc_header_clean:
-compiler_moc_source_make_all: .obj/blogapp_createView.moc .obj/blogapp_indexView.moc .obj/blogapp_saveView.moc .obj/blogapp_showView.moc
+compiler_moc_source_make_all: .obj/blogapp_createView.moc .obj/blogapp_indexView.moc .obj/blogapp_loadView.moc .obj/blogapp_saveView.moc .obj/blogapp_showView.moc
 compiler_moc_source_clean:
-	-$(DEL_FILE) .obj/blogapp_createView.moc .obj/blogapp_indexView.moc .obj/blogapp_saveView.moc .obj/blogapp_showView.moc
+	-$(DEL_FILE) .obj/blogapp_createView.moc .obj/blogapp_indexView.moc .obj/blogapp_loadView.moc .obj/blogapp_saveView.moc .obj/blogapp_showView.moc
 .obj/blogapp_createView.moc: ../../models/blogapp.h \
 		../../helpers/applicationhelper.h \
 		blogapp_createView.cpp \
@@ -419,6 +423,13 @@ compiler_moc_source_clean:
 		.obj/moc_predefs.h \
 		/usr/lib/qt5/bin/moc
 	/usr/lib/qt5/bin/moc $(DEFINES) --include .obj//moc_predefs.h -I/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -I/home/carbone/CLionProjects/blogapp/views/_src -I/home/carbone/CLionProjects/blogapp/helpers -I/home/carbone/CLionProjects/blogapp/models -I/usr/include/treefrog -I/usr/include/x86_64-linux-gnu/qt5 -I/usr/include/x86_64-linux-gnu/qt5/QtQml -I/usr/include/x86_64-linux-gnu/qt5/QtNetwork -I/usr/include/x86_64-linux-gnu/qt5/QtXml -I/usr/include/x86_64-linux-gnu/qt5/QtCore -I/usr/include/c++/5 -I/usr/include/x86_64-linux-gnu/c++/5 -I/usr/include/c++/5/backward -I/usr/lib/gcc/x86_64-linux-gnu/5/include -I/usr/local/include -I/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed -I/usr/include/x86_64-linux-gnu -I/usr/include blogapp_indexView.cpp -o .obj/blogapp_indexView.moc
+
+.obj/blogapp_loadView.moc: ../../models/blogapp.h \
+		../../helpers/applicationhelper.h \
+		blogapp_loadView.cpp \
+		.obj/moc_predefs.h \
+		/usr/lib/qt5/bin/moc
+	/usr/lib/qt5/bin/moc $(DEFINES) --include .obj//moc_predefs.h -I/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -I/home/carbone/CLionProjects/blogapp/views/_src -I/home/carbone/CLionProjects/blogapp/helpers -I/home/carbone/CLionProjects/blogapp/models -I/usr/include/treefrog -I/usr/include/x86_64-linux-gnu/qt5 -I/usr/include/x86_64-linux-gnu/qt5/QtQml -I/usr/include/x86_64-linux-gnu/qt5/QtNetwork -I/usr/include/x86_64-linux-gnu/qt5/QtXml -I/usr/include/x86_64-linux-gnu/qt5/QtCore -I/usr/include/c++/5 -I/usr/include/x86_64-linux-gnu/c++/5 -I/usr/include/c++/5/backward -I/usr/lib/gcc/x86_64-linux-gnu/5/include -I/usr/local/include -I/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed -I/usr/include/x86_64-linux-gnu -I/usr/include blogapp_loadView.cpp -o .obj/blogapp_loadView.moc
 
 .obj/blogapp_saveView.moc: ../../models/blogapp.h \
 		../../helpers/applicationhelper.h \
@@ -454,6 +465,11 @@ compiler_clean: compiler_moc_predefs_clean compiler_moc_source_clean
 		.obj/blogapp_indexView.moc
 	$(CXX) -c $(CXXFLAGS) $(INCPATH) -o .obj/blogapp_indexView.o blogapp_indexView.cpp
 
+.obj/blogapp_loadView.o: blogapp_loadView.cpp ../../models/blogapp.h \
+		../../helpers/applicationhelper.h \
+		.obj/blogapp_loadView.moc
+	$(CXX) -c $(CXXFLAGS) $(INCPATH) -o .obj/blogapp_loadView.o blogapp_loadView.cpp
+
 .obj/blogapp_saveView.o: blogapp_saveView.cpp ../../models/blogapp.h \
 		../../helpers/applicationhelper.h \
 		.obj/blogapp_saveView.moc
@@ -470,12 +486,14 @@ install_views: first FORCE
 	@test -d $(INSTALL_ROOT)/home/carbone/CLionProjects/blogapp/views/_src/.dummy || mkdir -p $(INSTALL_ROOT)/home/carbone/CLionProjects/blogapp/views/_src/.dummy
 	-$(QINSTALL) /home/carbone/CLionProjects/blogapp/views/blogapp/create.erb $(INSTALL_ROOT)/home/carbone/CLionProjects/blogapp/views/_src/.dummy/create.erb
 	-$(QINSTALL) /home/carbone/CLionProjects/blogapp/views/blogapp/index.erb $(INSTALL_ROOT)/home/carbone/CLionProjects/blogapp/views/_src/.dummy/index.erb
+	-$(QINSTALL) /home/carbone/CLionProjects/blogapp/views/blogapp/load.erb $(INSTALL_ROOT)/home/carbone/CLionProjects/blogapp/views/_src/.dummy/load.erb
 	-$(QINSTALL) /home/carbone/CLionProjects/blogapp/views/blogapp/save.erb $(INSTALL_ROOT)/home/carbone/CLionProjects/blogapp/views/_src/.dummy/save.erb
 	-$(QINSTALL) /home/carbone/CLionProjects/blogapp/views/blogapp/show.erb $(INSTALL_ROOT)/home/carbone/CLionProjects/blogapp/views/_src/.dummy/show.erb
 
 uninstall_views: FORCE
 	-$(DEL_FILE) -r $(INSTALL_ROOT)/home/carbone/CLionProjects/blogapp/views/_src/.dummy/show.erb
 	-$(DEL_FILE) -r $(INSTALL_ROOT)/home/carbone/CLionProjects/blogapp/views/_src/.dummy/save.erb
+	-$(DEL_FILE) -r $(INSTALL_ROOT)/home/carbone/CLionProjects/blogapp/views/_src/.dummy/load.erb
 	-$(DEL_FILE) -r $(INSTALL_ROOT)/home/carbone/CLionProjects/blogapp/views/_src/.dummy/index.erb
 	-$(DEL_FILE) -r $(INSTALL_ROOT)/home/carbone/CLionProjects/blogapp/views/_src/.dummy/create.erb
 	-$(DEL_DIR) $(INSTALL_ROOT)/home/carbone/CLionProjects/blogapp/views/_src/.dummy/ 

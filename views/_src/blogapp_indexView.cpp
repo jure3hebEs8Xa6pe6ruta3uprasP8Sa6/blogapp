@@ -13,12 +13,14 @@ public:
 
 QString blogapp_indexView::toString()
 {
-  responsebody.reserve(1610);
+  responsebody.reserve(1741);
   responsebody += QLatin1String("<!DOCTYPE html>\n");
     responsebody += QLatin1String("<html>\n<head>\n  <meta charset=\"UTF-8\">\n  <title>");
   responsebody += THttpUtility::htmlEscape(controller()->name() + ": " + controller()->activeAction());
   responsebody += QLatin1String("</title>\n</head>\n<body>\n\n<h1>Listing Blogapp</h1>\n\n");
   responsebody += QVariant(linkTo("Create a new Blogapp", urla("create"))).toString();
+  responsebody += QLatin1String("<br />\n");
+  responsebody += QVariant(linkTo("Load CSV into Blogapp", urla("load"))).toString();
   responsebody += QLatin1String("<br />\n<br />\n<table border=\"1\" cellpadding=\"5\" style=\"border: 1px #d0d0d0 solid; border-collapse: collapse;\">\n  <tr>\n    <th>ID</th>\n    <th>Title</th>\n    <th>Body</th>\n  </tr>\n");
   tfetch(QList<Blogapp>, blogappList);
   for (const auto &i : blogappList) {
