@@ -332,3 +332,21 @@
 2018-03-11 23:02:29  [94895] [BEGIN] [databaseId:0]
 2018-03-11 23:02:29  [94895] SELECT "id","title","body","created_at","updated_at","lock_revision" FROM "blogapp" t0
 2018-03-11 23:02:29  [94895] [COMMIT] [databaseId:0]
+2018-03-11 23:18:47  [102689] [BEGIN] [databaseId:0]
+2018-03-11 23:18:47  [102689] SELECT "id","title","body","created_at","updated_at","lock_revision" FROM "blogapp" t0
+2018-03-11 23:18:47  [102689] [COMMIT] [databaseId:0]
+2018-03-11 23:37:44  [102875] [BEGIN] [databaseId:0]
+2018-03-11 23:37:44  [102875] SELECT "id","title","body","created_at","updated_at","lock_revision" FROM "blogapp" t0
+2018-03-11 23:37:44  [102875] [COMMIT] [databaseId:0]
+2018-03-11 23:37:45  [102875] [BEGIN] [databaseId:0]
+2018-03-11 23:37:45  [102875] SELECT "id","title","body","created_at","updated_at","lock_revision" FROM "blogapp" t0
+2018-03-11 23:37:45  [102875] [COMMIT] [databaseId:0]
+2018-03-11 23:40:46  [103619] [BEGIN] [databaseId:0]
+2018-03-11 23:40:46  [103619] SELECT "id","title","body","created_at","updated_at","lock_revision" FROM "blogapp" t0
+2018-03-11 23:40:46  [103619] [COMMIT] [databaseId:0]
+2018-03-11 23:48:47  [103749] [BEGIN] [databaseId:0]
+2018-03-11 23:48:47  [103749] SELECT "id","title","body","created_at","updated_at","lock_revision" FROM "blogapp" t0
+2018-03-11 23:48:47  [103749] [COMMIT] [databaseId:0]
+2018-03-12 00:00:01  [105816] [BEGIN] [databaseId:0]
+2018-03-12 00:00:01  [105816] SELECT "id","title","body","created_at","updated_at","lock_revision" FROM "blogapp" t0
+2018-03-12 00:00:01  [105816] [COMMIT] [databaseId:0]

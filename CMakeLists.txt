@@ -8,12 +8,13 @@ set(PROJECT_VERSION "1.0.0")
 set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -std=c++11 -pthread")
 
 find_package(Qt5 COMPONENTS Sql Xml Qml Core Widgets REQUIRED)
-find_package(qtcsv REQUIRED)
 include_directories(/usr/include/treefrog)
-include_directories(/usr/local/include/qtcsv)
+include_directories(/usr/local/include)
 include_directories(models)
 include_directories(models/sqlobjects)
 include_directories(helpers)
+
+link_libraries(/usr/local/lib)
 
 set(CMAKE_AUTOMOC ON)
 set(CMAKE_AUTOUIC ON)
@@ -29,7 +30,7 @@ add_library(
         helpers/applicationhelper.h)
 
 set_target_properties(helper PROPERTIES VERSION ${PROJECT_VERSION} SOVERSION 1 SOVERSION 1.0)
-target_link_libraries(helper pthread treefrog rt Qt5::Core Qt5::Network Qt5::Sql Qt5::Qml Qt5::Xml)
+target_link_libraries(helper pthread treefrog rt Qt5::Core Qt5::Network Qt5::Sql Qt5::Qml Qt5::Xml )
 
 #	model
 add_library(model SHARED
@@ -38,7 +39,7 @@ add_library(model SHARED
         models/blogapp.h)
 
 set_target_properties(model PROPERTIES VERSION ${PROJECT_VERSION} SOVERSION 1 SOVERSION 1.0)
-target_link_libraries(model pthread treefrog rt helper qtcsv Qt5::Core Qt5::Network Qt5::Sql Qt5::Qml Qt5::Xml)
+target_link_libraries(model pthread treefrog rt helper Qt5::Core Qt5::Network Qt5::Sql Qt5::Qml Qt5::Xml )
 
 #	controller
 add_library(controller SHARED
@@ -48,7 +49,7 @@ add_library(controller SHARED
         controllers/blogappcontroller.h)
 
 set_target_properties(controller PROPERTIES VERSION ${PROJECT_VERSION} SOVERSION 1 SOVERSION 1.0)
-target_link_libraries(controller pthread treefrog rt helper model Qt5::Core Qt5::Network Qt5::Sql Qt5::Qml Qt5::Xml)
+target_link_libraries(controller pthread treefrog rt helper model Qt5::Core Qt5::Network Qt5::Sql Qt5::Qml Qt5::Xml )
 
 #  view
 add_library(view SHARED
@@ -59,7 +60,7 @@ add_library(view SHARED
         views/_src/blogapp_showView.cpp)
 
 set_target_properties(view PROPERTIES VERSION ${PROJECT_VERSION} SOVERSION 1 SOVERSION 1.0)
-target_link_libraries(view pthread treefrog rt helper model Qt5::Core Qt5::Network Qt5::Sql Qt5::Qml Qt5::Xml)
+target_link_libraries(view pthread treefrog rt helper model Qt5::Core Qt5::Network Qt5::Sql Qt5::Qml Qt5::Xml )
 
 add_custom_command(
         TARGET controller

@@ -10,6 +10,7 @@
 #include <QDebug>
 
 #include "qtcsv/reader.h"
+#include "qtcsv/writer.h"
 #include "qtcsv/stringdata.h"
 #include "qtcsv/variantdata.h"
 
@@ -69,10 +70,28 @@ Blogapp &Blogapp::operator=(const Blogapp &other) {
 
 bool Blogapp::load(const QString &filename) {
     tDebug("Model qtcsv Blogapp::load");
-    QTextCodec *codec = QTextCodec::codecForName("UTF-8");
+    QStringList strList;
+    strList << "one" << "two" << "three";
 
-    QList<QStringList> readData = QtCSV::Reader::readToList(filename);
+    QtCSV::StringData strData;
+    strData.addRow(strList);
+    strData.addEmptyRow();
+    strData << strList << "this is the last row";
 
+    // write to file
+    QString filePath = QDir::currentPath() + "/test.csv";
+    QtCSV::Writer::write(filePath, strData);
+
+    // read data from file
+    QList<QStringList> readData = QtCSV::Reader::readToList(filePath);
+    for ( int i = 0; i < readData.size(); ++i )
+    {
+        qDebug() << readData.at(i).join(",");
+    }
+
+    return 0;
+
+//    QList<QStringList> readData = QtCSV::Reader::readToList(filename);
 //    for (int i = 0; i < readData.size(); ++i) {
 //        qDebug() << readData.at(i).join(",");
 //    }

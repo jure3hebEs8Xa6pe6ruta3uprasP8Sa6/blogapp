@@ -168,3 +168,49 @@
 2018-03-11 23:13:14 WARN  [100311] No such method: staticInitialize() of ApplicationController
 2018-03-11 23:13:36 INFO  [100296] TreeFrog application servers shutting down
 2018-03-11 23:13:36 INFO  [100296] TreeFrog application servers shutdown completed
+2018-03-11 23:17:10 INFO  [101893] TreeFrog Framework version 1.20.0
+2018-03-11 23:17:10 INFO  [101893] Qt 5.10.0 / Linux 4.13.0-36-generic
+2018-03-11 23:17:10 INFO  [101893] TreeFrog application servers started up.
+2018-03-11 23:17:10 WARN  [101898] Cannot load library libcontroller.so: (libqtcsv.so.1: cannot open shared object file: No such file or directory)
+2018-03-11 23:17:10 WARN  [101898] Failed to load application libraries.
+2018-03-11 23:17:10 WARN  [101924] No such method: staticInitialize() of ApplicationController
+2018-03-11 23:18:41 INFO  [101893] TreeFrog application servers shutting down
+2018-03-11 23:18:42 INFO  [101893] TreeFrog application servers shutdown completed
+2018-03-11 23:18:43 INFO  [102665] TreeFrog Framework version 1.20.0
+2018-03-11 23:18:43 INFO  [102665] Qt 5.10.0 / Linux 4.13.0-36-generic
+2018-03-11 23:18:43 INFO  [102665] TreeFrog application servers started up.
+2018-03-11 23:18:56 WARN  [102665] treefrog stderr: /usr/bin/tadpole: symbol lookup error: ./libmodel.so.1.0: undefined symbol: _ZN5QtCSV6Reader10readToListERK7QStringS3_S3_P10QTextCodec
+
+2018-03-11 23:18:56 WARN  [102665] treefrog stderr: /usr/bin/tadpole: symbol lookup error: ./libmodel.so.1.0: undefined symbol: _ZN5QtCSV6Reader10readToListERK7QStringS3_S3_P10QTextCodec
+
+2018-03-11 23:37:55 WARN  [102665] treefrog stderr: /usr/bin/tadpole: symbol lookup error: ./libmodel.so.1.0: undefined symbol: _ZN5QtCSV6Reader10readToListERK7QStringS3_S3_P10QTextCodec
+
+2018-03-11 23:37:55 WARN  [102665] treefrog stderr: /usr/bin/tadpole: symbol lookup error: ./libmodel.so.1.0: undefined symbol: _ZN5QtCSV6Reader10readToListERK7QStringS3_S3_P10QTextCodec
+
+2018-03-11 23:40:32 INFO  [102665] TreeFrog application servers shutting down
+2018-03-11 23:40:32 INFO  [102665] TreeFrog application servers shutdown completed
+2018-03-11 23:40:33 INFO  [103603] TreeFrog Framework version 1.20.0
+2018-03-11 23:40:33 INFO  [103603] Qt 5.10.0 / Linux 4.13.0-36-generic
+2018-03-11 23:40:33 INFO  [103603] TreeFrog application servers started up.
+2018-03-11 23:40:54 WARN  [103603] treefrog stderr: /usr/bin/tadpole: symbol lookup error: ./libmodel.so.1.0: undefined symbol: _ZN5QtCSV10StringDataC1Ev
+
+2018-03-11 23:40:54 WARN  [103603] treefrog stderr: /usr/bin/tadpole: symbol lookup error: ./libmodel.so.1.0: undefined symbol: _ZN5QtCSV10StringDataC1Ev
+
+2018-03-11 23:47:31 INFO  [103603] TreeFrog application servers shutting down
+2018-03-11 23:47:31 INFO  [103603] TreeFrog application servers shutdown completed
+2018-03-11 23:48:40 INFO  [103728] TreeFrog Framework version 1.20.0
+2018-03-11 23:48:40 INFO  [103728] Qt 5.10.0 / Linux 4.13.0-36-generic
+2018-03-11 23:48:40 INFO  [103728] TreeFrog application servers started up.
+2018-03-11 23:48:53 WARN  [103728] treefrog stderr: /usr/bin/tadpole: symbol lookup error: ./libmodel.so.1.0: undefined symbol: _ZN5QtCSV10StringDataC1Ev
+
+2018-03-11 23:48:53 WARN  [103728] treefrog stderr: /usr/bin/tadpole: symbol lookup error: ./libmodel.so.1.0: undefined symbol: _ZN5QtCSV10StringDataC1Ev
+
+2018-03-11 23:54:02 INFO  [103728] TreeFrog application servers shutting down
+2018-03-11 23:54:02 INFO  [103728] TreeFrog application servers shutdown completed
+2018-03-11 23:59:53 INFO  [105769] TreeFrog Framework version 1.20.0
+2018-03-11 23:59:53 INFO  [105769] Qt 5.10.0 / Linux 4.13.0-36-generic
+2018-03-11 23:59:53 INFO  [105769] TreeFrog application servers started up.
+2018-03-12 00:00:08 WARN  [105769] treefrog stderr: /usr/bin/tadpole: symbol lookup error: ./libmodel.so.1.0: undefined symbol: _ZN5QtCSV10StringDataC1Ev
+
+2018-03-12 00:00:08 WARN  [105769] treefrog stderr: /usr/bin/tadpole: symbol lookup error: ./libmodel.so.1.0: undefined symbol: _ZN5QtCSV10StringDataC1Ev
+
